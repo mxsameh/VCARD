@@ -12,6 +12,7 @@ export default defineConfig({
         alias: {
             "@": "/src",
             "@c": "/src/components",
+            "@a": "/src/assets",
         },
     },
     // Post Css

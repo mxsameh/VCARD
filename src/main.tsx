@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.tsx";
-import "@/assets/styles/index.scss";
 import { BrowserRouter } from "react-router-dom";
-import Grid from "@c/grid/index.tsx";
 import { ReactLenis } from "@studio-freight/react-lenis";
+import "@a/styles/index.scss";
+import App from "./App.tsx";
+import Grid from "@c/grid/index.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
     <React.StrictMode>

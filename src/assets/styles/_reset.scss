@@ -1,4 +1,8 @@
-*{
+/*
+* THIS FILES IS FOR RESETTING SOME OF THE DEFAULTS STYLES
+*/
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,6 +10,9 @@
 a {
     text-decoration: none;
     color: inherit;
+}
+li {
+    list-style: none;
 }
 button {
     outline: none;

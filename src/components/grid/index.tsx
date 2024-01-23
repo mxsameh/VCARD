@@ -7,14 +7,15 @@ const Grid = () => {
     const margin = 40;
     const opacity = 20;
 
-    useEffect(() => {
-        const toogleGrid = (e: any) => {
-            const key = e.key;
-            const shift = e.shiftKey;
-            if (key && shift) setVisibilty((prev) => !prev);
-        };
-        document.addEventListener("keypress", toogleGrid);
+    // Hide / Show Grid
+    const toogleGrid = (e: any) => {
+        const key = e.key;
+        const shift = e.shiftKey;
+        if (key && shift) setVisibilty((prev) => !prev);
+    };
 
+    useEffect(() => {
+        document.addEventListener("keypress", toogleGrid);
         return () => {
             document.removeEventListener("keypress", toogleGrid);
         };
