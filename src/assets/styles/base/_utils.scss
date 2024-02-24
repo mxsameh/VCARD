@@ -1,0 +1,22 @@
+/*
+=====================================
+Functions
+=====================================
+*/
+
+@function size($value) {
+    $design-vw: 1440;
+    $current-vw: 100vw;
+    $size: calc($value * $current-vw / $design-vw);
+    @return $size;
+}
+
+/*
+=====================================
+Mixins
+=====================================
+*/
+@mixin center {
+    display: grid;
+    place-content: center;
+}

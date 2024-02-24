@@ -13,6 +13,7 @@ export default defineConfig({
             "@": "/src",
             "@c": "/src/components",
             "@a": "/src/assets",
+            "@s": "/src/assets/styles",
         },
     },
     // Post Css

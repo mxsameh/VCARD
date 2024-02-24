@@ -19,7 +19,14 @@ button {
     background-color: transparent;
 }
 img,
+video {
+    background-color: #ededed;
+    object-fit: cover;
+}
+
+img,
 svg {
+    display: block;
     width: 100%;
     height: auto;
 }
