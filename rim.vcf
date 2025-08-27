@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Sameh;Mohamed;;;
+FN:Mohamed Sameh
+ORG: MAISON PYRAMIDE
+TITLE:Creative Director
+TEL;TYPE=CELL:+201234567890
+EMAIL;TYPE=INTERNET:hello@example.com
+URL:https://yourdomain.com
+ADR;TYPE=WORK:;;123 Nile St;Cairo;;11511;Egypt
+END:VCARD
